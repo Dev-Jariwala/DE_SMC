@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+#navbar-d .container-d .logo-d img{
+    width: 50px;
+    margin: auto 20px auto auto;
+}
+.container-d{
+    width: 80%;
+    margin: auto;
+}
+#navbar-d .container-d, #navbar-d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar-d{
+    background-color: #2146C7;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+#navbar-d h3{
+    color: white;
+}
+/* track */
+#track{
+    margin-top: 50px;
+}
+.track{
+    background-color: #2146C7;
+    width: 80vw;
+    height: 90vh;
+    overflow: auto;
+    border-radius: 15px;
+    margin: auto;
+    color: white;
+    box-shadow: 7px 7px 14px grey;
+    padding: 50px;
+}
+#navbar-example2{
+    position: fixed;
+    top: 80px;
+    right: 0;
+}
+#areas{
+    margin-top: 120px;
+}
+p img{
+    width: 500px;
+}
+p .per, p .per-1, p .per-2, p .per-3, p .per-4{
+    font-size: 2.3rem;
+    color: white;
+    position: absolute;
+    
+}
+p .per{
+
+    top: 405px;
+    left: 200px;
+}
+p .per-1{
+
+    top: 951px;
+    left: 200px;
+}
+p .per-2{
+    top: 1562px;
+    left: 213px;
+}
+p .per-3{
+    left: 220px;
+    top: 2148px;
+}
+p .per-4{
+    left: 227px;
+    top: 2705px;
+}

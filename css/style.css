@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2146C7;
+}
+
+#login .container .title{
+    color: white;
+    font-size: 2rem;
+}
+
+.container{
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    /* background-color: yellow; */
+    margin: 50px auto 20px;
+}
+.enter-web{
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.enter-web .logo img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.enter-web .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.enter-web .inputs input{
+    margin: 5px auto;
+    border: none;
+    background-color: #D2DAFF;
+    padding: 10px 30px 10px 10px ;
+    border-radius: 5px;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px 7px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.enter-web .buttons #login-btn{
+    background-color: #47B5FF;
+}
+.enter-web .buttons #register-btn{
+    background-color: #FFF6BF;
+    color: black;
+}
+.enter-web #cwg-btn{
+    background-color: #F57328;
+}

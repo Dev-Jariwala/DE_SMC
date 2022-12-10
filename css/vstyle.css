@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+#navbar .container .logo img{
+    width: 50px;
+    margin: auto 20px auto auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#navbar .container, #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar{
+    background-color: #2146C7;
+    height: 70px;
+
+}
+#navbar h3{
+    color: white;
+}
+/* verification */
+#verification{
+    margin-top: 50px;
+}
+.form{
+    background-color: #2146C7;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: auto;
+    color: white;
+    box-shadow: 7px 7px 14px grey;
+}
+
+form input{
+    outline: none;
+    border: none;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form h1{
+    margin: 50px 10px;
+    font-size: 3rem;
+}
+.form .title img{
+    width: 30px;
+    height: 30px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.otp button{
+    background-color: #FFF6BF;
+}
+button#verify {
+    background-color: rgb(58, 199, 58);
+    padding: 10px 30px;
+    color: white;
+    margin-top: 20px;
+}
+.ver-form{
+    display: flex;
+    flex-direction: column;
+}
